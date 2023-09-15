@@ -1,10 +1,12 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import { Earth } from "./components/Earth";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="h-screen">
+      <h1 className="text-3xl font-bold underline">Hello world!</h1>
+      <Earth />
+    </div>
+  );
 }
 
 export default App;
