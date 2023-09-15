@@ -25,7 +25,7 @@ export const Earth = () => {
     <div className='h-full'>
       <Canvas>
         {/* <OrbitControls /> */}
-        <ambientLight />
+        <ambientLight intensity={2} />
         <pointLight position={[10, 10, 10]} />
         <EarthMesh />
       </Canvas>
