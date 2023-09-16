@@ -1,7 +1,8 @@
-import { Stars } from "@react-three/drei";
-import { Earth } from "./components/Earth";
+// import { Stars } from "@react-three/drei";
+// import { Earth } from "./components/Earth";
 import { Navbar } from "./components/Navbar";
-import { Intro } from "./pages/intro";
+import { Intro } from "./pages/Intro";
+import { About } from "./pages/About";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       
       <Navbar/>
       <Intro/>
+      <About/>
       {/* <Earth /> */}
     </div>
   );
