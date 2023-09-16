@@ -18,11 +18,11 @@ const EarthMesh = () => {
       <primitive object={gltf.scene} />
     </mesh>
   );
-}
+};
 
 export const Earth = () => {
   return (
-    <div className='h-full'>
+    <div className="h-full">
       <Canvas>
         {/* <OrbitControls /> */}
         <ambientLight intensity={2} />
@@ -31,4 +31,4 @@ export const Earth = () => {
       </Canvas>
     </div>
   );
-}
+};
