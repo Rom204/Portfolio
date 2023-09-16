@@ -3,6 +3,7 @@
 import { Navbar } from "./components/Navbar";
 import { Intro } from "./pages/Intro";
 import { About } from "./pages/About";
+import { Contact } from "./pages/Contact";
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
       <Navbar/>
       <Intro/>
       <About/>
+      {/* <Main/> */}
+      <Contact/>
       {/* <Earth /> */}
     </div>
   );
