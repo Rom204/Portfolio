@@ -1,4 +1,5 @@
 import { Earth } from "../components/Earth";
+import { GeneralText } from "../utils/generalText";
 
 export const Intro = () => {
   return (
@@ -8,7 +9,8 @@ export const Intro = () => {
           Glad you could join me 😄
         </h1> */}
         <h1 className="text-5xl text-white font-bold">
-          Glad you could join me 😄
+          {/* Glad you could join me 😄 */}
+          {GeneralText.page.intro.title}
         </h1>
         <h2 className="text-3xl text-white font-bold">
           don't worry, i got you! just chill and scroll a bit
