@@ -1,3 +1,4 @@
+import { Avatar } from "../components/avatar/Avatar";
 import { Card } from "../components/card/Card";
 
 export const About = () => {
@@ -10,7 +11,9 @@ export const About = () => {
        */}
       <div className="border-2 w-3/5 flex-col justify-center">
         <div className="border-2 h-2/5">links</div>
-        <div className="border-2 h-3/5">avatar</div>
+        <div className="border-2 h-3/5">
+          <Avatar/>
+        </div>
       </div>
       <div className="border-2 w-2/5">
         {/* <Card/> */}
